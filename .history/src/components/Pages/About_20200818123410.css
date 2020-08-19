@@ -1,0 +1,72 @@
+/* .myimage {
+  border-radius: 50%;
+
+  margin: 0 auto;
+  overflow: hidden;
+
+  padding-bottom: 90px;
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+.about-me {
+  background: #22242a;
+  overflow: hidden;
+  padding: 25px;
+  margin: auto;
+  width: 50%;
+}
+
+.about-me .info {
+  float: center;
+  width: 100%;
+  margin: 1.5% 2.5% 0 2.5%;
+}
+
+.about-me .info h2 {
+  margin: 20px 0 20px 40px;
+  color: #007b5e;
+}
+.about-me .info > p {
+  margin: 0 0 10px 40px;
+}
+.about-me .info > p:last-of-type {
+  margin-top: 10px;
+}
+.about-me .info p {
+  line-height: 1.5;
+  color: #888;
+}
+.about-me .info .hobbies {
+  overflow: hidden;
+  margin: 20px 0 0 40px;
+}
+.about-me .info .hobbies .content {
+  box-sizing: border-box;
+  float: left;
+  width: 50%;
+  min-height: 100px;
+  overflow: hidden;
+}
+.about-me .info .hobbies .content h3 {
+  color: #007b5e;
+}
+
+.about-me .info .hobbies .content .text {
+  float: left;
+  width: 84%;
+  margin-left: 2%;
+}
+.resume-wrapper {
+  padding: 30px;
+}
+@media (max-width: 850px) {
+  .section-padding {
+    padding: 80px 15% 40px 10%;
+    margin-right: 20px;
+  }
+}

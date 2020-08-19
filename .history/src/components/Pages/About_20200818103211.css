@@ -1,0 +1,14 @@
+.myimage {
+  border-radius: 50%;
+
+  margin: 0 auto;
+  overflow: hidden;
+
+  padding-bottom: 90px;
+  width: 200px;
+  height: 200px;
+  margin-top: 80px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
